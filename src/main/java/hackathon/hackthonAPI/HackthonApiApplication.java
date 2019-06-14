@@ -12,14 +12,12 @@ public class HackthonApiApplication {
 	public static void main(String[] args) {
 
 		SpringApplication.run(HackthonApiApplication.class, args);
-
-
 	}
 
 	@GetMapping(value = "/test")
 	public String echoTest()
 	{
-		return "Test";
+		return "I am GRROOOOOTTT";
 	}
 
 }
